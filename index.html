@@ -7,54 +7,150 @@
     <link rel="stylesheet" href="src/style/style.css">
     <link rel="stylesheet" href="src/assets/fonts/gravity.css">
     <script src="https://kit.fontawesome.com/1358ae72da.js" crossorigin="anonymous"></script>
+    <script src="src/js/scroll-navigation.js"></script>
 </head>
 <body>
-    <div class="nav-wrapper">
-        <nav class="nav-main">
-            <div>
-                <div class="nav-item">Анастасия Карбовская</div>
-                <div class="nav-item">Обо мне</div>
-                <div class="nav-item">Мои работы</div>
+    <div class="nav-wrapper" id="navigation">
+        <nav class="nav">
+            <div class="nav-main">
+                <div class="nav-item"><a href=#header>Анастасия Карбовская</a></div>
+                <div class="nav-item"><a href=#about-me>Обо мне</a></div>
+                <div class="nav-item"><a href=#my-works>Мои работы</a></div>
             </div>
-            <div class="nav-item">Контакты</div>
+            <div class="nav-item"><a href=#contact>Контакты</a></div>
         </nav>
     </div>
     <header class="header">
-        <div class="header__about-me">
+        <div class="header__about-me" id="header">
             <h1 class="name">Анастасия Карбовская</h1>
             <h3>Junior front-end developer</h3>
         </div>
         <div class="header__contacts">
             <div class="contacts-item">
-                <i class="fab fa-github"></i>
+                <a href="https://github.com/AnastasiaKrbvsk" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
             </div>
             <div class="contacts-item">
-                <i class="fab fa-instagram"></i>
+                <a href="https://www.instagram.com/anastasiakrbvsk/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
             </div>
             <div class="contacts-item">
-                <i class="fab fa-vk"></i>
+                <a href="https://vk.com/anastasiakrbvsk" target="_blank">
+                    <i class="fab fa-vk"></i>
+                </a>
             </div>
             <div class="contacts-item">
-                <i class="fab fa-telegram-plane"></i>
+                <a href="https://t.me/AnastasiaKrbvsk" target="_blank">
+                    <i class="fab fa-telegram-plane"></i>
+                </a>
             </div>
-            <div class="contacts-item">
-                <i class="fab fa-discord"></i>
+            <div class="contacts-item" target="_blank">
+                <a href="">
+                    <i class="fab fa-discord"></i>
+                </a>
             </div>
         </div>
     </header>
     <main class="main">
-        <div class="about-me-section">
-
+        <div class="about-me-section" id="about-me">
+            <div class="my-photo">
+                <h1>Обо мне</h1>
+                <img class="photo" src="src/assets/images/my-photo.jpg" alt="My photo" width=220 height=300>
+            </div>
+            <div class="about-me">
+                Я начинающий front-end разработчик. Уже на протяжении года я изучаю
+                JavaScript. На данный момент, я имею хороший опыт работы с HTML,
+                CSS и его препроцессорами(например, SASS), JavaScript, Webpack.
+                Пару месяцев назад успешно закончила Rolling Scopes School, благодаря которой
+                получила хороший опыт в разработке.
+                Также, я учусь на втором курсе БГУИРа, на факультете информационных технологий
+                и управления. Там я получила опыт работы с C++.  
+                Сейчас я активно изучаю React и делаю многое, чтобы прокачать свои навыки 
+                в JS.
+                С моими учебными проектами вы можете ознакомиться в моём портфолио.
+            </div>
         </div>
-        <div class="my-works-section">
-
+        <div class="my-works-section" id="my-works">
+            <h1>Мои работы</h1>
+            <div class="my-works">
+                <div class="my-project vertical-prj">
+                    <a>
+                        <img src="src/assets/images/singolo-project.png" alt="singolo-project" width=204 height=240>
+                    </a>
+                </div>
+                <div class="my-project horisontal-prj">
+                    <a href="https://codejam-image-anastasia.netlify.com/" target="_blank">
+                        <img src="src/assets/images/image-api-project.png" alt="image-api-project" width=290 height=140>
+                    </a>
+                </div>
+                <div class="my-project horisontal-prj">
+                    <a href="https://fancy-weather-anastasia.netlify.com/" target="_blank">
+                        <img src="src/assets/images/weather-project.jpg" alt="weather-project" width=290 height=140>
+                    </a>
+                </div>
+                <div class="my-project horisontal-prj">
+                    <a>
+                        <img src="src/assets/images/birds-quiz-project.png" alt="birds-quiz-project" width=290 height=140>
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="contact-section">
-
+        <div class="contact-section" id="contact">
+            <h1>Контакты</h1>
+            <div class="contacts-wrapper">
+                <div class="contacts-item-2">
+                    <a href="https://github.com/AnastasiaKrbvsk" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <div class="contacts-item-2">
+                    <a href="https://www.instagram.com/anastasiakrbvsk/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+                <div class="contacts-item-2">
+                    <a href="https://vk.com/anastasiakrbvsk" target="_blank">
+                        <i class="fab fa-vk"></i>
+                    </a>
+                </div>
+                <div class="contacts-item-2">
+                    <a href="https://t.me/AnastasiaKrbvsk" target="_blank">
+                        <i class="fab fa-telegram-plane"></i>
+                    </a>
+                </div>
+                <div class="contacts-item-2" target="_blank">
+                    <a href="">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                </div>
+            </div>
         </div>
     </main>
     <footer class="footer">
-
+        <div class="footer-navigation">
+            <div class="footer-navigation__item">
+                <a href=#header>
+                    Анастасия Карбовская
+                </a>                
+            </div>
+            <div class="footer-navigation__item">
+                <a href=#about-me>
+                    Обо мне
+                </a>
+            </div>
+            <div class="footer-navigation__item">
+                <a href=#my-works>
+                    Мои работы
+                </a>
+            </div>
+            <div class="footer-navigation__item">
+                <a href=#contact>
+                    Контакты
+                </a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
