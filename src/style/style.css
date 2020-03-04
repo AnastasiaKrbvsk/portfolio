@@ -1,3 +1,112 @@
+@media screen and (max-width: 940px) {
+    .my-works-section {
+        display: flex;
+        flex-direction: column;
+        height: 700px;
+        background-color: #ffffff;
+    }
+
+    .my-works {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin: 40px auto;
+    }
+
+    .projects-parts {
+        width:90%;
+        display: flex;
+        justify-content: space-around;
+        margin: 20px auto;
+    }
+
+    .hidden-item {
+        display: none;
+    }
+
+    .nav-main {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 1185px) and (min-width: 940px) {
+    .my-works-section {
+        display: flex;
+        flex-direction: column;
+        height: 700px;
+        background-color: #ffffff;
+    }
+
+    .my-works {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin: 40px auto;
+    }
+
+    .projects-parts {
+        width:90%;
+        display: flex;
+        justify-content: space-around;
+        margin: 20px auto;
+    }
+
+    .nav-item-hidden {
+        display: none;
+    }
+
+    .nav-main {
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 1185px) {
+    .my-works-section {
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        background-color: #ffffff;
+    }
+    
+
+    .my-works {
+        width: 90%;
+        margin: 40px auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .projects-parts {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .part-1 {
+        width: 47%;
+    }
+
+    .part-2 {
+        width: 53%;
+    }
+
+    .nav-item-hidden {
+        display: none;
+    }
+
+    .nav-main {
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -45,13 +154,6 @@ body {
     width: 90%;
     height: 50px;
     margin: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.nav-main {
-    width: 40%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -175,13 +277,6 @@ body {
     letter-spacing: 0.1em;
 }
 
-.my-works-section {
-    display: flex;
-    flex-direction: column;
-    height: 500px;
-    background-color: #ffffff;
-}
-
 .my-works-section h1 {
     margin-left: 40px;
     font-size: 2em;
@@ -189,13 +284,6 @@ body {
     letter-spacing: 0.3em;
     font-family: "Gravity-Regular", sans-serif;
     color: #000000;
-}
-
-.my-works {
-    width: 90%;
-    margin: 40px auto;
-    display: flex;
-    justify-content: space-between;
 }
 
 .my-project {
