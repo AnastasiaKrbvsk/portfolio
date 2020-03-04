@@ -590,7 +590,13 @@
         letter-spacing: 0.3em;
         font-family: "Gravity-Regular", sans-serif;
         color: #000000;
-    } 
+    }
+    .footer-navigation__item {
+        margin-top: 20px;
+        font-family: "Gravity-Regular", sans-serif;
+        letter-spacing: 0.3px;
+        color: #ffffff;
+    }
 }
 
 html {
