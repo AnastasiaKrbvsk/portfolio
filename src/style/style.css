@@ -1,4 +1,352 @@
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 384px) {
+    .name {
+        font-family: "Gravity-Regular", sans-serif;
+        font-size: 1.4em;
+        font-weight: lighter;
+        letter-spacing: 0.3em;
+        color: #ffffff;
+    }
+
+    .my-works-section {
+        display: flex;
+        flex-direction: column;
+        height: 1050px;
+        background-color: #ffffff;
+    }
+
+    .my-works {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin: 40px auto;
+    }
+
+    .projects-parts {
+        width:90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 20px auto;
+    }
+
+    .hidden-item {
+        display: none;
+    }
+
+    .nav-wrapper {
+        display: none;
+    }
+
+    .my-project {
+        margin: 20px auto;
+        box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
+    }
+
+    .about-me-section {
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #000000;
+    }
+
+    .about-me {
+        margin: 40px auto;
+        width: 70%;
+        font-family: "Gravity-Regular", sans-serif;
+        color: #ffffff;
+        letter-spacing: 0.1em;
+    }
+
+    .my-photo {
+        margin: 20px auto;
+        width: 260px;
+        height: 300px;
+    }
+
+    .my-works-section h1 {
+        margin: 20px auto;
+        font-size: 2em;
+        font-weight: lighter;
+        letter-spacing: 0.3em;
+        font-family: "Gravity-Regular", sans-serif;
+        color: #000000;
+    }
+
+    .footer-navigation__item {
+        margin-top: 20px;
+        font-size: 0.6em;
+        font-family: "Gravity-Regular", sans-serif;
+        letter-spacing: 0.3px;
+        color: #ffffff;
+    }
+}
+
+@media screen and (max-width: 453px) and (min-width: 384px){
+    .name {
+        font-family: "Gravity-Regular", sans-serif;
+        font-size: 1.4em;
+        font-weight: lighter;
+        letter-spacing: 0.3em;
+        color: #ffffff;
+    }
+
+    .my-works-section {
+        display: flex;
+        flex-direction: column;
+        height: 1050px;
+        background-color: #ffffff;
+    }
+
+    .my-works {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin: 40px auto;
+    }
+
+    .projects-parts {
+        width:90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 20px auto;
+    }
+
+    .hidden-item {
+        display: none;
+    }
+
+    .nav-wrapper {
+        display: none;
+    }
+
+    .my-project {
+        margin: 20px auto;
+        box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
+    }
+
+    .about-me-section {
+        width: 100%;
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #000000;
+    }
+
+    .about-me {
+        margin: 40px auto;
+        width: 70%;
+        font-family: "Gravity-Regular", sans-serif;
+        color: #ffffff;
+        letter-spacing: 0.1em;
+    }
+
+    .my-photo {
+        margin: 20px auto;
+        width: 260px;
+        height: 300px;
+    }
+
+    .my-works-section h1 {
+        margin: 20px auto;
+        font-size: 2em;
+        font-weight: lighter;
+        letter-spacing: 0.3em;
+        font-family: "Gravity-Regular", sans-serif;
+        color: #000000;
+    }
+
+    .footer-navigation__item {
+        margin-top: 20px;
+        font-size: 0.6em;
+        font-family: "Gravity-Regular", sans-serif;
+        letter-spacing: 0.3px;
+        color: #ffffff;
+    }
+}
+
+@media screen and (max-width: 580px) and (min-width: 453px) {
+    .name {
+        font-family: "Gravity-Regular", sans-serif;
+        font-size: 1.4em;
+        font-weight: lighter;
+        letter-spacing: 0.3em;
+        color: #ffffff;
+    }
+
+    .my-works-section {
+        display: flex;
+        flex-direction: column;
+        height: 1050px;
+        background-color: #ffffff;
+    }
+
+    .my-works {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin: 40px auto;
+    }
+
+    .projects-parts {
+        width:90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 20px auto;
+    }
+
+    .hidden-item {
+        display: none;
+    }
+
+    .nav-wrapper {
+        display: none;
+    }
+
+    .my-project {
+        margin: 20px auto;
+        box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
+    }
+
+    .about-me-section {
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #000000;
+    }
+
+    .about-me {
+        margin: 40px auto;
+        width: 70%;
+        font-family: "Gravity-Regular", sans-serif;
+        color: #ffffff;
+        letter-spacing: 0.1em;
+    }
+
+    .my-photo {
+        margin: 20px auto;
+        width: 260px;
+        height: 300px;
+    }
+
+    .my-works-section h1 {
+        margin: 20px auto;
+        font-size: 2em;
+        font-weight: lighter;
+        letter-spacing: 0.3em;
+        font-family: "Gravity-Regular", sans-serif;
+        color: #000000;
+    }
+
+    .footer-navigation__item {
+        margin-top: 20px;
+        font-family: "Gravity-Regular", sans-serif;
+        letter-spacing: 0.3px;
+        color: #ffffff;
+    }
+}
+
+@media screen and (max-width: 730px) and (min-width: 580px){
+    .name {
+        font-family: "Gravity-Regular", sans-serif;
+        font-size: 2.4em;
+        font-weight: lighter;
+        letter-spacing: 0.3em;
+        color: #ffffff;
+    }
+
+    .my-works-section {
+        display: flex;
+        flex-direction: column;
+        height: 1050px;
+        background-color: #ffffff;
+    }
+
+    .my-works {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin: 40px auto;
+    }
+
+    .projects-parts {
+        width:90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 20px auto;
+    }
+
+    .hidden-item {
+        display: none;
+    }
+
+    .nav-main {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .my-project {
+        margin: 20px auto;
+        box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
+    }
+
+    .about-me-section {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #000000;
+    }
+
+    .about-me {
+        margin-top: 20%;
+        width: 70%;
+        font-family: "Gravity-Regular", sans-serif;
+        color: #ffffff;
+        letter-spacing: 0.1em;
+    }
+    .my-photo {
+        margin-top: 10px;
+        margin-left: 40px;
+        width: 260px;
+        height: 300px;
+    }
+
+    .my-works-section h1 {
+        margin: 20px auto;
+        font-size: 2em;
+        font-weight: lighter;
+        letter-spacing: 0.3em;
+        font-family: "Gravity-Regular", sans-serif;
+        color: #000000;
+    }
+
+    .footer-navigation__item {
+        margin-top: 20px;
+        font-family: "Gravity-Regular", sans-serif;
+        letter-spacing: 0.3px;
+        color: #ffffff;
+    }
+}
+
+@media screen and (max-width: 940px) and (min-width: 730px) {
+    .name {
+        font-family: "Gravity-Regular", sans-serif;
+        font-size: 2.4em;
+        font-weight: lighter;
+        letter-spacing: 0.3em;
+        color: #ffffff;
+    }
+
     .my-works-section {
         display: flex;
         flex-direction: column;
@@ -30,9 +378,60 @@
         flex-direction: row;
         justify-content: space-between;
     }
+
+    .my-project {
+        margin: auto 0;
+        box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
+    }
+    
+    .about-me-section {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #000000;
+    }
+
+    .about-me {
+        margin-top: 20%;
+        width: 70%;
+        font-family: "Gravity-Regular", sans-serif;
+        color: #ffffff;
+        letter-spacing: 0.1em;
+    }
+    .my-photo {
+        margin-top: 10px;
+        margin-left: 40px;
+        width: 260px;
+        height: 300px;
+    }
+
+    .my-works-section h1 {
+        margin-left: 40px;
+        font-size: 2em;
+        font-weight: lighter;
+        letter-spacing: 0.3em;
+        font-family: "Gravity-Regular", sans-serif;
+        color: #000000;
+    }
+
+    .footer-navigation__item {
+        margin-top: 20px;
+        font-family: "Gravity-Regular", sans-serif;
+        letter-spacing: 0.3px;
+        color: #ffffff;
+    }
 }
 
 @media screen and (max-width: 1185px) and (min-width: 940px) {
+    .name {
+        font-family: "Gravity-Regular", sans-serif;
+        font-size: 2.4em;
+        font-weight: lighter;
+        letter-spacing: 0.3em;
+        color: #ffffff;
+    }
+
     .my-works-section {
         display: flex;
         flex-direction: column;
@@ -64,9 +463,60 @@
         flex-direction: row;
         justify-content: space-between;
     }
+
+    .my-project {
+        margin: auto 0;
+        box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
+    }
+
+    .about-me-section {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #000000;
+    }
+
+    .about-me {
+        margin-top: 20%;
+        width: 70%;
+        font-family: "Gravity-Regular", sans-serif;
+        color: #ffffff;
+        letter-spacing: 0.1em;
+    }
+    .my-photo {
+        margin-top: 10px;
+        margin-left: 40px;
+        width: 260px;
+        height: 300px;
+    }
+
+    .my-works-section h1 {
+        margin-left: 40px;
+        font-size: 2em;
+        font-weight: lighter;
+        letter-spacing: 0.3em;
+        font-family: "Gravity-Regular", sans-serif;
+        color: #000000;
+    }
+
+    .footer-navigation__item {
+        margin-top: 20px;
+        font-family: "Gravity-Regular", sans-serif;
+        letter-spacing: 0.3px;
+        color: #ffffff;
+    }
 }
 
 @media screen and (min-width: 1185px) {
+    .name {
+        font-family: "Gravity-Regular", sans-serif;
+        font-size: 2.4em;
+        font-weight: lighter;
+        letter-spacing: 0.3em;
+        color: #ffffff;
+    }
+
     .my-works-section {
         display: flex;
         flex-direction: column;
@@ -105,6 +555,42 @@
         flex-direction: row;
         justify-content: space-between;
     }
+
+    .my-project {
+        margin: auto 0;
+        box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
+    }
+
+    .about-me-section {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #000000;
+    }
+
+    .about-me {
+        margin-top: 20%;
+        width: 70%;
+        font-family: "Gravity-Regular", sans-serif;
+        color: #ffffff;
+        letter-spacing: 0.1em;
+    }
+    .my-photo {
+        margin-top: 10px;
+        margin-left: 40px;
+        width: 260px;
+        height: 300px;
+    }
+
+    .my-works-section h1 {
+        margin-left: 40px;
+        font-size: 2em;
+        font-weight: lighter;
+        letter-spacing: 0.3em;
+        font-family: "Gravity-Regular", sans-serif;
+        color: #000000;
+    } 
 }
 
 html {
@@ -180,7 +666,7 @@ body {
 .header__about-me {
     width: 40%;
     height: 200px;
-    margin: 20% auto 0;
+    margin: 20% auto;
 }
 
 .header__contacts {
@@ -190,14 +676,6 @@ body {
     height: 200px;
     margin-top: 20%;
     margin-right: 20px;
-}
-
-.name {
-    font-family: "Gravity-Regular", sans-serif;
-    font-size: 2.4em;
-    font-weight: lighter;
-    letter-spacing: 0.3em;
-    color: #ffffff;
 }
 
 .header__about-me h3{
@@ -242,23 +720,10 @@ body {
     transition: 0.5s;
 }
 
-.about-me-section {
-    width: 100%;
-    height: 500px;
-    display: flex;
-    justify-content: space-between;
-    background-color: #000000;
-}
-
-.my-photo {
-    margin-top: 10px;
-    margin-left: 40px;
+.my-photo img {
     width: 220px;
     height: 300px;
-}
-
-.my-photo img {
-    margin-top: 20px;
+    margin: 0 auto;
 }
 
 .my-photo h1 {
@@ -267,28 +732,6 @@ body {
     letter-spacing: 0.3em;
     font-family: "Gravity-Regular", sans-serif;
     color: #ffffff;
-}
-
-.about-me {
-    margin-top: 200px;
-    width: 70%;
-    font-family: "Gravity-Regular", sans-serif;
-    color: #ffffff;
-    letter-spacing: 0.1em;
-}
-
-.my-works-section h1 {
-    margin-left: 40px;
-    font-size: 2em;
-    font-weight: lighter;
-    letter-spacing: 0.3em;
-    font-family: "Gravity-Regular", sans-serif;
-    color: #000000;
-}
-
-.my-project {
-    margin: auto 0;
-    box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
 }
 
 .my-project:hover {
@@ -417,13 +860,6 @@ body {
     display: flex;
     justify-content: space-between;
     margin: auto;
-}
-
-.footer-navigation__item {
-    margin-top: 20px;
-    font-family: "Gravity-Regular", sans-serif;
-    letter-spacing: 0.3px;
-    color: #ffffff;
 }
 
 .footer-navigation__item a{
