@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     max-width: 1920px;
     margin: 0 auto;
@@ -60,12 +64,6 @@ body {
     letter-spacing: 0.3px;
     cursor: pointer;
 }
-
-/* .nav-item:hover {
-    background-color: rgb(255, 255, 255, 0.1);
-    cursor: pointer;
-    transition-duration: 0.5s;
-} */
 
 .header {
     width: 100%;
@@ -138,6 +136,10 @@ body {
     transition-duration: 0.5s;
 }
 
+.contacts-item:not(:hover) {
+    transition: 0.5s;
+}
+
 .about-me-section {
     width: 100%;
     height: 500px;
@@ -198,11 +200,68 @@ body {
 
 .my-project {
     margin: auto 0;
+    box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
 }
 
 .my-project:hover {
     cursor: pointer;
 }
+
+.vertical-prj {
+    position:relative;
+    width: 204px;
+    height: 240px;
+}
+
+.horisontal-prj {
+    position:relative;
+    width: 290px;
+    height: 140px;
+}
+
+.block {
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    background:rgba(0,0,0, 0.7);
+    opacity: 0;
+    visibility: hidden;
+    transition: .55s opacity, .55s visibility;
+}
+
+.vertical-prj .block h3 {
+    margin-left: 50px;
+}
+
+.block h3 {
+    margin-left: 35px;
+    font-size: 1.3em;
+    font-weight: lighter;
+    letter-spacing: 0.2em;
+    font-family: "Gravity-Regular", sans-serif;
+    color: #ffffff;
+}
+
+.weather p {
+    font-size: 0.8em;
+}
+
+.block p {
+    font-family: "Gravity-Regular", sans-serif;
+    color: #ffffff;
+}
+
+.horisontal-prj:hover .block {
+    opacity: 1;
+    visibility: visible;
+}
+
+.vertical-prj:hover .block {
+    opacity: 1;
+    visibility: visible;
+} 
 
 .contact-section {
     display: flex;
@@ -241,6 +300,10 @@ body {
     -webkit-transform: translateY(-7px);
     transform: translateY(-7px);
     transition-duration: 0.5s;
+}
+
+.contacts-item-2:not(:hover) {
+    transition: 0.5s;
 }
 
 .contacts-item-2 a {
