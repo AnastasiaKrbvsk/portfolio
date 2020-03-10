@@ -52,17 +52,18 @@
     }
 
     .about-me {
-        margin: 40px auto;
+        margin: 0 auto;
+        padding: 40px 40px;
         width: 70%;
         font-family: "Gravity-Regular", sans-serif;
         color: #ffffff;
         letter-spacing: 0.1em;
+        text-align: justify;
     }
 
     .my-photo {
         margin: 20px auto;
         width: 260px;
-        height: 300px;
     }
 
     .my-works-section h1 {
@@ -129,7 +130,7 @@
 
     .about-me-section {
         width: 100%;
-        height: 900px;
+        height: 940px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -137,17 +138,18 @@
     }
 
     .about-me {
-        margin: 40px auto;
+        margin: 0 auto;
+        padding: 40px 40px;
         width: 70%;
         font-family: "Gravity-Regular", sans-serif;
         color: #ffffff;
         letter-spacing: 0.1em;
+        text-align: justify;
     }
 
     .my-photo {
         margin: 20px auto;
         width: 260px;
-        height: 300px;
     }
 
     .my-works-section h1 {
@@ -214,7 +216,7 @@
 
     .about-me-section {
         width: 100%;
-        height: 800px;
+        height: 850px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -222,17 +224,18 @@
     }
 
     .about-me {
-        margin: 40px auto;
+        margin: 0 auto;
+        padding: 40px 40px;
         width: 70%;
         font-family: "Gravity-Regular", sans-serif;
         color: #ffffff;
         letter-spacing: 0.1em;
+        text-align: justify;
     }
 
     .my-photo {
         margin: 20px auto;
         width: 260px;
-        height: 300px;
     }
 
     .my-works-section h1 {
@@ -301,24 +304,25 @@
 
     .about-me-section {
         width: 100%;
-        height: 500px;
+        height: 620px;
         display: flex;
         justify-content: space-between;
         background-color: #000000;
     }
 
     .about-me {
-        margin-top: 20%;
+        margin-top: 15%;
         width: 70%;
+        padding: 40px 40px;
         font-family: "Gravity-Regular", sans-serif;
         color: #ffffff;
         letter-spacing: 0.1em;
+        text-align: justify;
     }
     .my-photo {
         margin-top: 10px;
         margin-left: 40px;
-        width: 260px;
-        height: 300px;
+        width: 300px;
     }
 
     .my-works-section h1 {
@@ -393,17 +397,18 @@
     }
 
     .about-me {
-        margin-top: 20%;
+        margin-top: 15%;
         width: 70%;
+        padding: 40px 40px;
         font-family: "Gravity-Regular", sans-serif;
         color: #ffffff;
         letter-spacing: 0.1em;
+        text-align: justify;
     }
     .my-photo {
         margin-top: 10px;
         margin-left: 40px;
-        width: 260px;
-        height: 300px;
+        width: 300px;
     }
 
     .my-works-section h1 {
@@ -423,7 +428,7 @@
     }
 }
 
-@media screen and (max-width: 1185px) and (min-width: 940px) {
+@media screen and (max-width: 1245px) and (min-width: 940px) {
     .name {
         font-family: "Gravity-Regular", sans-serif;
         font-size: 2.4em;
@@ -478,17 +483,19 @@
     }
 
     .about-me {
-        margin-top: 20%;
+        margin-top: 15%;
+        width: 70%;
+        padding: 40px 40px;
         width: 70%;
         font-family: "Gravity-Regular", sans-serif;
         color: #ffffff;
         letter-spacing: 0.1em;
+        text-align: justify;
     }
     .my-photo {
         margin-top: 10px;
         margin-left: 40px;
-        width: 260px;
-        height: 300px;
+        width: 300px;
     }
 
     .my-works-section h1 {
@@ -508,7 +515,7 @@
     }
 }
 
-@media screen and (min-width: 1185px) {
+@media screen and (min-width: 1245px) {
     .name {
         font-family: "Gravity-Regular", sans-serif;
         font-size: 2.4em;
@@ -557,7 +564,7 @@
     }
 
     .my-project {
-        margin: auto 0;
+        margin: auto 5px;
         box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
     }
 
@@ -570,17 +577,18 @@
     }
 
     .about-me {
-        margin-top: 20%;
+        margin-top: 15%;
+        padding: 40px 40px;
         width: 70%;
         font-family: "Gravity-Regular", sans-serif;
         color: #ffffff;
         letter-spacing: 0.1em;
+        text-align: justify;
     }
     .my-photo {
         margin-top: 10px;
         margin-left: 40px;
-        width: 260px;
-        height: 300px;
+        width: 300px;
     }
 
     .my-works-section h1 {
@@ -772,6 +780,10 @@ body {
     margin-left: 50px;
 }
 
+.vertical-prj .block p{
+    padding-left: 30px;
+}
+
 .block h3 {
     margin-left: 35px;
     font-size: 1.3em;
@@ -788,6 +800,8 @@ body {
 .block p {
     font-family: "Gravity-Regular", sans-serif;
     color: #ffffff;
+    text-align: justify;
+    padding: 0 10px;
 }
 
 .horisontal-prj:hover .block {
